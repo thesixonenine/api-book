@@ -1,6 +1,13 @@
 # api-book
 通用API文档模板
 
+## 将adoc文档转成pdf
+
+```bash
+gradle asciidoctorPdf
+```
+
+
 [参考](https://github.com/cloudedi/asciidoctor-pdf-cjk)
 
 ## 将docx文档转成adoc
