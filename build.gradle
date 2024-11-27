@@ -102,7 +102,7 @@ asciidoctorPdf {
 }
 
 // 同时生成 html5 和 pdf
-task generateAll {
+tasks.register('generateAll') {
     dependsOn asciidoctor, asciidoctorPdf
     doLast {
         println 'generate html5 and pdf over!'
